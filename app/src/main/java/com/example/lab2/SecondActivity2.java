@@ -15,7 +15,9 @@ public class SecondActivity2 extends AppCompatActivity {
         receiver_msg = (TextView) findViewById(R.id.received_value_id);
         Intent intent = getIntent();
         String str = intent.getStringExtra("message_key");
-        receiver_msg.setText("Hello, "+ str + "!");
+        receiver_msg.setText("Hell, "+ str + "!");
+
+
 
 
 
